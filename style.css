@@ -1,0 +1,304 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Alegreya", serif;
+}
+
+.parent{
+  background-image: url(images/drew-coffman-1872.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.nav {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.logo {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  padding: 30px 0;
+}
+
+.logo img {
+  width: 200px;
+}
+
+.links {
+  float: right;
+  margin: 45px 0;
+  width: 70%;
+}
+
+.nav ul {
+  list-style: none;
+  float: right;
+}
+
+.item {
+  display: inline-block;
+  color: #fff;
+  font-size: 20px;
+  margin: 0 20px 0;
+}
+
+.content {
+  text-align: center;
+  margin: 10% 0;
+  color: #fff;
+}
+
+.content p {
+  font-size: 22px;
+  margin: 20px auto;
+  width: 35%;
+}
+
+.content h1 {
+  font-size: 73px;
+}
+
+button {
+  border: solid 2px #fff;
+  margin: 10px 10px;
+  padding: 20px 30px;
+  border-radius: 10px;
+  font-weight: 800;
+  color: #fff;
+  background-color: transparent;
+}
+
+.learn {
+  background-color: #8e7754;
+  border: none;
+}
+
+.member {
+  float: left;
+}
+
+.sec1 {
+  width: 80%;
+  margin: 0 auto;
+  padding: 60px 0 60px;
+}
+
+.mem1 {
+  margin: 20px 0 0 80px;
+}
+
+.mem2 {
+  margin: 40px 0 0 30px;
+}
+
+.member img {
+  width: 500px;
+}
+
+.mem2 h2 {
+  font-size: 32px;
+}
+
+.mem2 p {
+  width: 500px;
+  margin: 20px 0 0 0;
+  font-size: 17px;
+  color: #686868;
+}
+
+.sec1 table tbody tr td img {
+  width: 45px;
+  border: 1px solid #cfcfcf;
+  border-radius: 50%;
+}
+
+.sec1 table {
+  margin-top: 10px;
+}
+
+.sec1 table td {
+  padding-top: 20px;
+  padding-left: 10px;
+}
+.sec2 {
+  background-color: #f8f8f8;
+  padding: 90px 180px;
+}
+
+.sec2 .text {
+  width: 40%;
+  /* display: inline-block; */
+  margin: 120px 0 0 30px;
+}
+.float{
+  float: left;
+}
+
+.sec2 .text h2 {
+  font-size: 32px;
+  margin: 20px 0;
+}
+
+.sec2 .text p {
+  font-size: 20px;
+}
+
+.sec2 .photo {
+  width: 40%;
+  /* display: inline-block; */
+  vertical-align: top;
+  margin: 0 0 0 100px;
+}
+
+.sec2 .photo img {
+  width: 90%;
+}
+
+.sec3 {
+  padding: 90px 180px;
+  text-align: center;
+}
+
+.sec3 h2 {
+  padding: 10px 0;
+  font-size: 32px;
+}
+
+.sec3 h3 {
+  font-size: 25px;
+  padding: 10px 0;
+}
+
+.sec3 p {
+  font-size: 20px;
+  color: #686868;
+}
+
+.sec3 .member1 {
+  display: inline-block;
+  width: 25%;
+  margin: 20px 30px;
+}
+
+.sec3 .member1 img {
+  width: 100%;
+}
+
+.sec4 {
+  padding: 85px 195px;
+  background-color: #f8f8f8;
+}
+
+.member2 {
+  width: 40%;
+  float: left;
+  padding: 0 50px;
+}
+
+.member2 .cont-info h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.sec4 .cont-info .text1 {
+  font-size: 20px;
+  margin: 0 0 20px 0;
+}
+
+.cont-det p {
+  font-size: 20px;
+  margin: 0 0 20px 0;
+}
+
+.cont-det table tbody tr td img {
+  width: 40px;
+  height: 40px;
+  background-color: #8e7754;
+  border-radius: 50%;
+}
+
+.cont-det table tbody tr td {
+  padding: 0 0 10px 10px;
+}
+
+.cont-det table tbody tr td p {
+  font-size: 17px;
+}
+.footer1 {
+  background-color: #403d38;
+  padding: 60px 0 40px 0;
+}
+.content3 {
+  height: 500px;
+  width: 80%;
+  margin: 0 auto;
+}
+.content3 .list4 {
+  width: 20%;
+  float: left;
+  margin: 100px 20px;
+}
+.content3 h3 {
+  margin: 0 0 20px 0;
+  font-size: 25px;
+  color: #f8f8f8;
+}
+.content3 ul {
+  list-style: none;
+}
+.content3 ul li p {
+  border-bottom: solid 1px #4a4742;
+  padding: 10px 0;
+  color: #969696;
+  display: inline-block;
+}
+.fix {
+  width: 170px;
+}
+.list4 p {
+  color: #969696;
+}
+.main {
+  font-size: 25px;
+  padding-bottom: 30px;
+}
+.background-img {
+  background-image: url(images/contact-details-map.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.footer2 {
+  padding: 50px 0 40px 0;
+  background-color: #353330;
+  text-align: center;
+}
+.icons2 {
+  padding: 20px 0;
+}
+.main-logo p {
+  color: #777777;
+  margin: 20px 0;
+}
+
+.img-20px {
+  width: 20px;
+}
+.img-40px {
+  width: 40px;
+}
+.img-circle-50px {
+  background-color: #484540;
+  border-radius: 50%;
+  width: 50px;
+}
+
+.clr {
+  clear: both;
+}
